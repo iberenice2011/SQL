@@ -2,28 +2,26 @@ Create a shoes database
 
 CREATE TABLE shoes (id integer primary key, name TEXT, color TEXT, brand TEXT, price INTEGER, Quantity INTEGER);
 
-INSERT INTO shoes VALUES ( 1, "Bred 11s", "RED", "jordans", 200,8);
-INSERT INTO shoes VALUES ( 2, "GRAPE 5s", "PURPLE", "jordans",200, 3);
-INSERT INTO shoes VALUES ( 3, "SIX RINGS", "BLACK", "jordans",200, 5);
-INSERT INTO shoes VALUES ( 4, "FUSION 5S", "BLACK", "jordans", 350, 1);
-INSERT INTO shoes VALUES ( 5, "GRAPE 8s", "PURPLE", "jordans", 300, 2);
-INSERT INTO shoes VALUES ( 6, "YEEZYS 700", "BLACK", "Addidas", 180,1);
-INSERT INTO shoes VALUES ( 7, "YEEZY BOOST 350", "BEIGE", "Addidas",350, 9);
-INSERT INTO shoes VALUES ( 8, "SUPERNOVA", "Black", "Addidas", 350, 7);
-INSERT INTO shoes VALUES ( 9, "BUZZ CITY", "BLUE", "pumas", 80, 3);
-INSERT INTO shoes VALUES ( 10, "JD SPORTS", "WHITE", "NEW BALANCE", 85, 10);
-INSERT INTO shoes VALUES ( 11, "992 WHEAT", "BROWN", "NEW BALANCE",  125, 1);
-INSERT INTO shoes VALUES ( 12, "990V6 NAVY", "BLUE", "NEW BALANCE", 135, 3);
-INSERT INTO shoes VALUES ( 13, "AIR MAX 90", "PINK", "NIKE", 150, 2);
-INSERT INTO shoes VALUES ( 14, "AIR FORCES", "WHITE", "NIKE", 150,30);
-INSERT INTO shoes VALUES ( 15, "AIR FORCES", "BLACK", "NIKE", 175,30);
+INSERT INTO shoes VALUES ( 1, "Bred 11s", "RED", "jordans", 200.00,8);
+INSERT INTO shoes VALUES ( 2, "GRAPE 5s", "PURPLE", "jordans",200.00, 3);
+INSERT INTO shoes VALUES ( 3, "SIX RINGS", "BLACK", "jordans",200.00, 5);
+INSERT INTO shoes VALUES ( 4, "FUSION 5S", "BLACK", "jordans", 350.00, 1);
+INSERT INTO shoes VALUES ( 5, "GRAPE 8s", "PURPLE", "jordans", 300.00, 2);
+INSERT INTO shoes VALUES ( 6, "YEEZYS 700", "BLACK", "Addidas", 180.00,1);
+INSERT INTO shoes VALUES ( 7, "YEEZY BOOST 350", "BEIGE", "Addidas",350.00, 9);
+INSERT INTO shoes VALUES ( 8, "SUPERNOVA", "Black", "Addidas", 350.00, 7);
+INSERT INTO shoes VALUES ( 9, "BUZZ CITY", "BLUE", "pumas", 80.00, 3);
+INSERT INTO shoes VALUES ( 10, "JD SPORTS", "WHITE", "NEW BALANCE", 85.00, 10);
+INSERT INTO shoes VALUES ( 11, "992 WHEAT", "BROWN", "NEW BALANCE",  125.00, 1);
+INSERT INTO shoes VALUES ( 12, "990V6 NAVY", "BLUE", "NEW BALANCE", 135.00, 3);
+INSERT INTO shoes VALUES ( 13, "AIR MAX 90", "PINK", "NIKE", 150.00, 2);
+INSERT INTO shoes VALUES ( 14, "AIR FORCES", "WHITE", "NIKE", 150.00,30);
+INSERT INTO shoes VALUES ( 15, "AIR FORCES", "BLACK", "NIKE", 175.00,30);
 
 Display the database ordered by price
 
 SELECT * FROM shoes 
 ORDER BY price DESC;
 
---what is the avg price of items
-SELECT AVG(price) "avg price"
-FROM store
+
  
